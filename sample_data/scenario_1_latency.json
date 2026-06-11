@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-06-11T20:30:00Z",
+  "workflow_name": "Gemini-RAG-Pipeline",
+  "telemetry_source": "Dynatrace Trace Ingestion",
+  "metrics": {
+    "total_latency_ms": 14200,
+    "tool_call_failures": 4,
+    "token_count": 4500
+  },
+  "error_logs": [
+    "Timeout encountered while executing tool 'AuthValidationTool' after 8000ms.",
+    "Downstream retry loop initiated for step: customer_profile_lookup.",
+    "Cascading failure: workflow returned HTTP 504 Gateway Timeout."
+  ]
+}
